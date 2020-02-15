@@ -26,8 +26,8 @@ a {
 .singolo {
     width: 140px;
     height: 100%;
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 12px;
+    line-height: 59px;
     color: #ffffff;
     font-family: "Lato", sans-serif;
     font-weight: 300;
@@ -66,7 +66,41 @@ a {
     font-size: 12px;
 }
 .list .listItem .listLink:hover {
-    color: #f06c64
+    color: #f06c64;
 }
-
+.main {
+    width: 1020px;
+    
+}
+.slider {
+    display: inline-flex;
+    width:940px;
+    height: 585px;
+    background-color: #f06c64;
+    padding: 0 40px;
+    border-bottom-style: solid;
+    border-bottom-color: #ea676b;
+    border-bottom-width: 15px;
+}
+.previous {
+    margin-bottom: -5px;
+  
+}
+.slider .previous:hover {
+    color: #f06c64;
+}
+.vertical {
+    padding-left: 55px;
+    padding-bottom: 21px;
+    margin-top: -16px;
+}
+.horisontal {
+    margin: 71px 0 -62px -333px;
+}
+.next {
+    margin: 0 0 -5px 22px;
+}
+.slider .next:hover {
+    color: #f06c64;
+}
 
