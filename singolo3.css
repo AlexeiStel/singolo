@@ -49,6 +49,9 @@ body {
     text-align: left;
     padding-left: 15px;
 }
+input{
+    margin: -10px;
+}
 .contact__form-area {
     width: 602px;
     height: 193px;
