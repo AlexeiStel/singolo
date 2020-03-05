@@ -1,1 +1,1 @@
-# singolo
+https://alexeistel.github.io/singolo/
