@@ -95,8 +95,8 @@ a {
     margin-bottom: 73px;
     padding-left: 1px;
 }
-.slider .previous:hover {
-    color: #f06c64;
+.previous:hover {
+    cursor: pointer;
 }
 .vertical {
     padding-left: 53px;
@@ -109,8 +109,8 @@ a {
 .next {
     margin: 0 0 73px 23px;
 }
-.slider .next:hover {
-    color: #f06c64;
+.next:hover {
+    cursor: pointer;
 }
 .services {
     width: 980px;
@@ -122,8 +122,6 @@ a {
     border-bottom-color: #ffffff;
     border-bottom-width: 6px;
     margin-left: -40px;
-   
-
 }
 .services__title {
     font-family: 'Lato', sans-serif;
@@ -134,7 +132,7 @@ a {
     text-align: justify;
 
 }
-.services-text {
+.services__text {
     width: 940px;
     height: 57px;
     font-size: 18px;
@@ -157,7 +155,7 @@ a {
 }
 .carddescriptionfont {
     width: 219px;
-    height: 128px;
+    height: 70px;
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
@@ -167,6 +165,7 @@ a {
     position: absolute;
     left: 80px;
     top: 14px;
+    overflow: hidden;
 }
 .cardservices {
     display: flex;
@@ -341,15 +340,14 @@ p {
     border-bottom-style: solid;
     border-bottom-color: #ffffff;
     border-bottom-width: 6px;
-    justify-content: space-between;
+    
       
     }
     .worker__person{
     margin-top: 30px;
+    padding-right: 19.5px;
 }
-.worker__person:last-child {
-    margin-right: 0px;
-}
+
 .worker__person-image {
     width: 300px;
     height: 300px;
@@ -358,11 +356,14 @@ p {
 .worker__person-name{
     font-size: 18px;
     line-height: 18px;
+    width: 300px;
+    height: 18px;
     color: #666d89;
     font-family: "Lato", sans-serif;
     font-weight: 900;
-    text-align: justify;
+    text-align: left;
     margin-top: 13px;
+    overflow: hidden;
 }
 .worker__person-info {
     width: 300px;
